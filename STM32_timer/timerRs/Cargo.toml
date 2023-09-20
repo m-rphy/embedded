@@ -1,0 +1,12 @@
+[package]
+name = "timerRs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.5"
+stm32f1xx-hal = { version = "0.7", features = ["rt", "stm32f103"]}
